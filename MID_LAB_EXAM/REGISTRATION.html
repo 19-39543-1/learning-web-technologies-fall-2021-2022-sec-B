@@ -1,21 +1,23 @@
 <fieldset>
     <legend><b>REGISTRATION</b></legend>
-    <form action="logcheck.php" method="POST">
         <table>
             <tr>
-                <td>Id</td>
-				<td>:</td>
-                <td><input type="text" name="userName"></td>
+                <label>Id</label>
+            <br>
+            <input type="text" name="id" id="id" value="" >
+            <br>
             </tr>
             <tr>
-                <td>Password</td>
-				<td>:</td>
-                <td><input type="password" name="password"></td>
+                <label>Password</label>
+            <br>
+            <input type="text" name="Password" Password="Password" value="" >
+            <br>
             </tr>
             <tr>
-                <td>Confirm Password</td>
-                <td>:</td>
-                <td><input type="Confirm password" name="Confirm password"></td>
+                <label>Password</label>
+            <br>
+            <input type="text" name="Confirm Password" Confirm Password="Confirm Password" value="" >
+            <br>
             </tr>
         </table>
         <label>User Type</label>
@@ -27,5 +29,4 @@
         <hr/>
         <input type="Sign Up" name="submit" value="Sign Up">     
 		<a href="Sign_In.html">Sign In</a>
-    </form>
 </fieldset>
